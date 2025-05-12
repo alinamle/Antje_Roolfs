@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
@@ -46,7 +45,7 @@
   </style>
 </head>
 <body>
-  <h1>Tippe auf den Button, um den Ton zu hören</h1>
+  <h1>Wie hört sich Bayrisch an?</h1>
   <button class="button" onclick="document.getElementById('audio').play()">
     ▶ Ton abspielen
   </button>
@@ -55,6 +54,6 @@
     Dein Browser unterstützt kein Audio.
   </audio>
 
-  <footer>© Dein Projektname</footer>
+  <footer>©von babbeln & brabbeln </footer>
 </body>
 </html>

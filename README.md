@@ -1,11 +1,11 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Ton abspielen</title>
+  <title>Wie hört sich Bayrisch an?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      background: linear-gradient(135deg, #f8f1e4, #f1e7d4);
       font-family: "Segoe UI", sans-serif;
       display: flex;
       flex-direction: column;
@@ -16,36 +16,36 @@
     }
 
     h1 {
-      color: #102a43;
-      margin-bottom: 20px;
+      color: #5c4b36;
+      margin-bottom: 30px;
       text-align: center;
+      font-size: 28px;
     }
 
     .button {
-      background-color: #2f80ed;
+      background-color: #d4b483;
       color: white;
-      padding: 15px 30px;
+      padding: 15px 35px;
       border: none;
       border-radius: 10px;
-      font-size: 18px;
+      font-size: 20px;
+      font-weight: bold;
       cursor: pointer;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       transition: background-color 0.3s ease;
     }
 
     .button:hover {
-      background-color: #1c60b3;
+      background-color: #c1a26e;
     }
 
-    footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #627d98;
+    audio {
+      display: none;
     }
   </style>
 </head>
 <body>
-  <h1>Wie hört sich Bayrisch an?</h1>
+  <h1>Tippe zum Abspielen</h1>
   <button class="button" onclick="document.getElementById('audio').play()">
     ▶ Ton abspielen
   </button>
@@ -53,7 +53,5 @@
     <source src="You See The Trouble With Me.mp3" type="audio/mpeg">
     Dein Browser unterstützt kein Audio.
   </audio>
-
-  <footer>©von babbeln & brabbeln </footer>
 </body>
 </html>

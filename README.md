@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Ton abspielen</title>
+  <title>Wie hört sich Bayrisch an?</title>
 </head>
 <body style="text-align:center; margin-top: 50px;">
   <h1>Ton wird abgespielt</h1>
@@ -11,4 +11,4 @@
     Dein Browser unterstützt kein Audio.
   </audio>
 </body>
-</html># Dialekte-Ton
+</html>#
